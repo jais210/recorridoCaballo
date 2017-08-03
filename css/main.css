@@ -1,0 +1,17 @@
+.negro{
+  background-color: black;
+  color:white;
+}
+
+td{
+  width: 40px;
+  height: 40px;
+}
+
+p {
+  font: italic normal 2.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+}
+

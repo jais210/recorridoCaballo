@@ -2,10 +2,10 @@ var generar = document.getElementById('ejecutar');
 var tablero = document.getElementById('tablero');
 
 function printMatrix (M){
-    console.log ("___________________");
+    
     for (var i = 0; i < M.length; i++)
         console.log (M[i]);   
-    console.log ("___________________");
+    
 }
 function check (i, j, n) {
    if (  i >= 0 && j >= 0 && i < n && j < n)
