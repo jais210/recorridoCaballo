@@ -132,9 +132,9 @@ generar.onclick = function () {
             if (i % 2 == 0 && j % 2 != 0 || i % 2 != 0 && j % 2 == 0) {
                 celda.setAttribute('class', 'negro');
             }
-            var p = document.createElement('p');
-            p.innerHTML = M[i][j];
-            celda.appendChild(p);
+            // var p = document.createElement('p');// comentar líneas 135 a 139
+            // p.innerHTML = M[i][j];
+            // celda.appendChild(p);
             
             fila.appendChild(celda);
         }
